@@ -1,0 +1,6 @@
+tentativa 1: 201=1  409=19  vagas ES3 restantes=39 (esperado 1 x 201 e 39 vagas)
+tentativa 2: 201=1  409=19  vagas ES3 restantes=39 (esperado 1 x 201 e 39 vagas)
+tentativa 3: 201=1  409=19  vagas ES3 restantes=39 (esperado 1 x 201 e 39 vagas)
+tentativa 4: 201=1  409=19  vagas ES3 restantes=39 (esperado 1 x 201 e 39 vagas)
+tentativa 5: 201=1  409=19  vagas ES3 restantes=39 (esperado 1 x 201 e 39 vagas)
+Regra R6 respeitada sob concorrência

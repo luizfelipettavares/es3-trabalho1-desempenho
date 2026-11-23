@@ -1,0 +1,3938 @@
+{
+ "pacote_B": {
+  "verificacao1": {
+   "usuarios": 1,
+   "rotulo": "verificação",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 33,
+      "p50_ms": 33.0,
+      "p95_ms": 35.0,
+      "req_s": 2.404889368373186,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 32,
+      "p50_ms": 32.9,
+      "p95_ms": 33.945,
+      "req_s": 2.349831105889264,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 5,
+       "p50_ms": 32.6,
+       "p95_ms": 33.44,
+       "req_s": 0.6568575932737781,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 27,
+       "p50_ms": 32.9,
+       "p95_ms": 33.97,
+       "req_s": 1.9826699955940665,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 35,
+      "p50_ms": 33.0,
+      "p95_ms": 36.0,
+      "req_s": 2.5258051248328144,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 35,
+      "p50_ms": 32.7,
+      "p95_ms": 33.33,
+      "req_s": 2.500893176134334,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 15,
+       "p50_ms": 32.7,
+       "p95_ms": 33.93,
+       "req_s": 1.0718113612004287,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 20,
+       "p50_ms": 32.7,
+       "p95_ms": 33.305,
+       "req_s": 1.5355086372360844,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 32,
+      "p50_ms": 33.0,
+      "p95_ms": 34.0,
+      "req_s": 2.382100288048755,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 32,
+      "p50_ms": 32.9,
+      "p95_ms": 33.245,
+      "req_s": 2.385033912200939,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 5,
+       "p50_ms": 32.8,
+       "p95_ms": 32.98,
+       "req_s": 0.5000500050005,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 27,
+       "p50_ms": 32.9,
+       "p95_ms": 33.269999999999996,
+       "req_s": 2.0123723634195425,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  },
+  "referencia5": {
+   "usuarios": 5,
+   "rotulo": "referência",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 1001,
+      "p50_ms": 33.0,
+      "p95_ms": 33.0,
+      "req_s": 11.248503551905648,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 977,
+      "p50_ms": 32.5,
+      "p95_ms": 33.3,
+      "req_s": 11.498987806600443,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 283,
+       "p50_ms": 32.4,
+       "p95_ms": 33.2,
+       "req_s": 3.332901508638457,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 694,
+       "p50_ms": 32.5,
+       "p95_ms": 33.4,
+       "req_s": 8.168165340614848,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 1004,
+      "p50_ms": 33.0,
+      "p95_ms": 34.0,
+      "req_s": 11.273401275803163,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 977,
+      "p50_ms": 32.7,
+      "p95_ms": 33.8,
+      "req_s": 11.499393839526372,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 300,
+       "p50_ms": 32.7,
+       "p95_ms": 33.8,
+       "req_s": 3.553197285357274,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 677,
+       "p50_ms": 32.7,
+       "p95_ms": 33.8,
+       "req_s": 7.968361954308447,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 1015,
+      "p50_ms": 33.0,
+      "p95_ms": 34.0,
+      "req_s": 11.39540749734778,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 991,
+      "p50_ms": 32.6,
+      "p95_ms": 33.5,
+      "req_s": 11.667333819962796,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 281,
+       "p50_ms": 32.6,
+       "p95_ms": 33.7,
+       "req_s": 3.3082954625727,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 710,
+       "p50_ms": 32.6,
+       "p95_ms": 33.4,
+       "req_s": 8.37353020957413,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  },
+  "carga20": {
+   "usuarios": 20,
+   "rotulo": "carga nominal",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 3913,
+      "p50_ms": 32.0,
+      "p95_ms": 35.0,
+      "req_s": 43.92674650159359,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 3691,
+      "p50_ms": 32.3,
+      "p95_ms": 34.849999999999994,
+      "req_s": 46.12769786420385,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 1115,
+       "p50_ms": 32.3,
+       "p95_ms": 35.029999999999994,
+       "req_s": 13.936977363348875,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 2576,
+       "p50_ms": 32.3,
+       "p95_ms": 34.8,
+       "req_s": 32.19356128774245,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 3940,
+      "p50_ms": 32.0,
+      "p95_ms": 34.0,
+      "req_s": 44.23232471789087,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 3718,
+      "p50_ms": 32.3,
+      "p95_ms": 34.3,
+      "req_s": 46.46280351407756,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 1095,
+       "p50_ms": 32.3,
+       "p95_ms": 34.3,
+       "req_s": 13.69126509790192,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 2623,
+       "p50_ms": 32.3,
+       "p95_ms": 34.3,
+       "req_s": 32.79241886282942,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 3914,
+      "p50_ms": 32.0,
+      "p95_ms": 35.0,
+      "req_s": 43.94261489753715,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 3685,
+      "p50_ms": 32.3,
+      "p95_ms": 34.6,
+      "req_s": 46.07920371134536,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 1114,
+       "p50_ms": 32.3,
+       "p95_ms": 34.5,
+       "req_s": 13.9352772669844,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 2571,
+       "p50_ms": 32.3,
+       "p95_ms": 34.6,
+       "req_s": 32.15076218940313,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  },
+  "estresse50": {
+   "usuarios": 50,
+   "rotulo": "estresse 1",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 9577,
+      "p50_ms": 38.0,
+      "p95_ms": 70.0,
+      "req_s": 107.50211153361933,
+      "falhas_pct": 0.020883366398663464
+     },
+     "patamar": {
+      "requisicoes": 9030,
+      "p50_ms": 38.5,
+      "p95_ms": 70.2,
+      "req_s": 112.83973758200561,
+      "falhas_pct": 0.0221483942414175
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 2777,
+       "p50_ms": 38.8,
+       "p95_ms": 69.91999999999999,
+       "req_s": 34.72595630806938,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 6253,
+       "p50_ms": 38.4,
+       "p95_ms": 70.3,
+       "req_s": 78.14687062587483,
+       "falhas_pct": 0.03198464736926275
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 9569,
+      "p50_ms": 37.0,
+      "p95_ms": 70.0,
+      "req_s": 107.4228768791254,
+      "falhas_pct": 0.010450412791305257
+     },
+     "patamar": {
+      "requisicoes": 9020,
+      "p50_ms": 37.2,
+      "p95_ms": 70.2,
+      "req_s": 112.7147766323024,
+      "falhas_pct": 0.011086474501108647
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 2661,
+       "p50_ms": 37.8,
+       "p95_ms": 71.6,
+       "req_s": 33.25543322044065,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 6359,
+       "p50_ms": 37.1,
+       "p95_ms": 69.50999999999995,
+       "req_s": 79.47657197135395,
+       "falhas_pct": 0.015725743041358705
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 9534,
+      "p50_ms": 37.0,
+      "p95_ms": 71.0,
+      "req_s": 107.01231610683452,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 9000,
+      "p50_ms": 37.8,
+      "p95_ms": 71.4,
+      "req_s": 112.47188202949262,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 2695,
+       "p50_ms": 37.3,
+       "p95_ms": 70.22999999999998,
+       "req_s": 33.70182327489183,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 6305,
+       "p50_ms": 38.0,
+       "p95_ms": 71.6,
+       "req_s": 78.7928017995501,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  },
+  "estresse100": {
+   "usuarios": 100,
+   "rotulo": "estresse 2",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 4272,
+      "p50_ms": 110.0,
+      "p95_ms": 130.0,
+      "req_s": 164.14157881259078,
+      "falhas_pct": 27.73876404494382
+     },
+     "patamar": {
+      "requisicoes": 3159,
+      "p50_ms": 113.7,
+      "p95_ms": 131.6,
+      "req_s": 195.5673868631214,
+      "falhas_pct": 33.111744222855336
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 965,
+       "p50_ms": 114.9,
+       "p95_ms": 131.4,
+       "req_s": 59.863523573200986,
+       "falhas_pct": 31.917098445595855
+      },
+      "cursos": {
+       "requisicoes": 2194,
+       "p50_ms": 113.0,
+       "p95_ms": 131.7,
+       "req_s": 135.82616232278835,
+       "falhas_pct": 33.63719234275296
+      }
+     },
+     "atende": false,
+     "parada": "[PARADA] t=26s falhas=33% p95_janela=130 ms (critério: >20% ou >2000 ms por 10 s)"
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 4251,
+      "p50_ms": 110.0,
+      "p95_ms": 130.0,
+      "req_s": 163.3578728930563,
+      "falhas_pct": 26.95836273817925
+     },
+     "patamar": {
+      "requisicoes": 3114,
+      "p50_ms": 115.4,
+      "p95_ms": 131.7,
+      "req_s": 192.7934621099554,
+      "falhas_pct": 32.01669877970456
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 939,
+       "p50_ms": 115.3,
+       "p95_ms": 131.60999999999999,
+       "req_s": 58.14601523314137,
+       "falhas_pct": 32.694355697550584
+      },
+      "cursos": {
+       "requisicoes": 2175,
+       "p50_ms": 115.5,
+       "p95_ms": 131.7,
+       "req_s": 134.74166769916988,
+       "falhas_pct": 31.724137931034484
+      }
+     },
+     "atende": false,
+     "parada": "[PARADA] t=26s falhas=32% p95_janela=130 ms (critério: >20% ou >2000 ms por 10 s)"
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 4046,
+      "p50_ms": 110.0,
+      "p95_ms": 130.0,
+      "req_s": 161.6722615749239,
+      "falhas_pct": 27.261492832427088
+     },
+     "patamar": {
+      "requisicoes": 2934,
+      "p50_ms": 115.9,
+      "p95_ms": 132.1,
+      "req_s": 193.8168846611177,
+      "falhas_pct": 32.549420586230404
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 879,
+       "p50_ms": 114.7,
+       "p95_ms": 132.2,
+       "req_s": 58.17339510258107,
+       "falhas_pct": 34.129692832764505
+      },
+      "cursos": {
+       "requisicoes": 2055,
+       "p50_ms": 116.4,
+       "p95_ms": 132.1,
+       "req_s": 135.76005813569398,
+       "falhas_pct": 31.873479318734795
+      }
+     },
+     "atende": false,
+     "parada": "[PARADA] t=25s falhas=33% p95_janela=130 ms (critério: >20% ou >2000 ms por 10 s)"
+    }
+   ]
+  },
+  "recuperacao20": {
+   "usuarios": 20,
+   "rotulo": "recuperação",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 3906,
+      "p50_ms": 32.0,
+      "p95_ms": 35.0,
+      "req_s": 43.853677006809754,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 3685,
+      "p50_ms": 32.4,
+      "p95_ms": 34.6,
+      "req_s": 46.08611913605723,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 1083,
+       "p50_ms": 32.3,
+       "p95_ms": 34.889999999999986,
+       "req_s": 13.564629258517034,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 2602,
+       "p50_ms": 32.4,
+       "p95_ms": 34.5,
+       "req_s": 32.54167760977501,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 3878,
+      "p50_ms": 32.0,
+      "p95_ms": 34.0,
+      "req_s": 43.560239735280966,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 3657,
+      "p50_ms": 32.4,
+      "p95_ms": 34.4,
+      "req_s": 45.75711318535572,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 1048,
+       "p50_ms": 32.3,
+       "p95_ms": 34.464999999999996,
+       "req_s": 13.13036396667293,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 2609,
+       "p50_ms": 32.4,
+       "p95_ms": 34.3,
+       "req_s": 32.644328220014515,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 3895,
+      "p50_ms": 32.0,
+      "p95_ms": 34.0,
+      "req_s": 43.73214261340085,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 3678,
+      "p50_ms": 32.3,
+      "p95_ms": 34.4,
+      "req_s": 45.963509122719316,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "curso_detalhe": {
+       "requisicoes": 1106,
+       "p50_ms": 32.3,
+       "p95_ms": 34.675000000000004,
+       "req_s": 13.847848950768768,
+       "falhas_pct": 0.0
+      },
+      "cursos": {
+       "requisicoes": 2572,
+       "p50_ms": 32.3,
+       "p95_ms": 34.4,
+       "req_s": 32.1676922307269,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  }
+ },
+ "pacote_B_rec": {
+  "recuperacao": {
+   "r1": {
+    "primeira_janela_dentro_da_meta_s": 2.5,
+    "janelas_fora_da_meta": 0,
+    "janelas": 18
+   },
+   "r2": {
+    "primeira_janela_dentro_da_meta_s": 2.5,
+    "janelas_fora_da_meta": 0,
+    "janelas": 18
+   },
+   "r3": {
+    "primeira_janela_dentro_da_meta_s": 2.5,
+    "janelas_fora_da_meta": 0,
+    "janelas": 19
+   }
+  }
+ },
+ "exemplo_B": {
+  "requisicoes": 3915,
+  "p50_ms": 32.0,
+  "p95_ms": 36.0,
+  "req_s": 43.94916208754169,
+  "falhas_pct": 0.0
+ },
+ "exemplo_A": {
+  "carga": {
+   "agregado": {
+    "requisicoes": 2772,
+    "p50_ms": 13.0,
+    "p95_ms": 71.0,
+    "req_s": 23.079269689254332,
+    "falhas_pct": 0.0
+   },
+   "por_endpoint": {
+    "GET /api/cardapio": {
+     "p95_ms": 15.0,
+     "max_ms": 28.03002699999979,
+     "req": 1446
+    },
+    "GET /api/pedidos/[id]": {
+     "p95_ms": 5.0,
+     "max_ms": 25.48102299999755,
+     "req": 545
+    },
+    "GET /api/relatorio/vendas": {
+     "p95_ms": 210.0,
+     "max_ms": 323.84663999994245,
+     "req": 163
+    },
+    "POST /api/pedidos": {
+     "p95_ms": 36.0,
+     "max_ms": 47.164526999949885,
+     "req": 618
+    }
+   }
+  },
+  "estresse": {
+   "agregado": {
+    "requisicoes": 18984,
+    "p50_ms": 13.0,
+    "p95_ms": 35.0,
+    "req_s": 63.18678244844443,
+    "falhas_pct": 0.0
+   },
+   "por_endpoint": {
+    "GET /api/cardapio": {
+     "p95_ms": 15.0,
+     "max_ms": 63.149470999974255,
+     "req": 10378
+    },
+    "GET /api/pedidos/[id]": {
+     "p95_ms": 5.0,
+     "max_ms": 42.59444199999507,
+     "req": 3840
+    },
+    "GET /api/relatorio/vendas": {
+     "p95_ms": 13000.0,
+     "max_ms": 17185.876176999955,
+     "req": 616
+    },
+    "POST /api/pedidos": {
+     "p95_ms": 36.0,
+     "max_ms": 78.99886899997455,
+     "req": 4150
+    }
+   }
+  }
+ },
+ "pacote_A": {
+  "carga_r1": {
+   "resumo": {
+    "tipo": "carga",
+    "requisicoes": 4333,
+    "falhas_tecnicas": 0,
+    "erro_tecnico_pct": 0.0,
+    "p50_ms": 23,
+    "p95_ms": 2800,
+    "p95_comprovante_ms": 5900,
+    "rps_medio": 36.07,
+    "respostas_negocio": {
+     "201 Matrícula realizada": 92,
+     "409 Vagas esgotadas": 42,
+     "alunos que desistiram (sem vagas)": 8
+    },
+    "por_endpoint": {
+     "GET /api/disciplinas": {
+      "req": 3736,
+      "falhas": 0,
+      "p50_ms": 23,
+      "p95_ms": 25,
+      "max_ms": 53.651013000035164,
+      "rps": 31.103022937534984
+     },
+     "POST /api/matriculas": {
+      "req": 134,
+      "falhas": 0,
+      "p50_ms": 53,
+      "p95_ms": 63,
+      "max_ms": 64.87905100016178,
+      "rps": 1.1155795164961693
+     },
+     "GET /api/matriculas/[id]/comprovante": {
+      "req": 463,
+      "falhas": 0,
+      "p50_ms": 2200,
+      "p95_ms": 5900,
+      "max_ms": 7050.929136999912,
+      "rps": 3.854576986102435
+     }
+    },
+    "integridade": {
+     "ES3": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "BD2": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "PW2": {
+      "iniciais": 35,
+      "finais": 0,
+      "consumidas": 35,
+      "matriculas_201": 35,
+      "ok": true
+     },
+     "RED": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "IHC": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "EMP": {
+      "iniciais": 50,
+      "finais": 0,
+      "consumidas": 50,
+      "matriculas_201": 50,
+      "ok": true
+     },
+     "MOB": {
+      "iniciais": 5,
+      "finais": 0,
+      "consumidas": 5,
+      "matriculas_201": 5,
+      "ok": true
+     }
+    },
+    "sla": {
+     "p95_geral_ok": false,
+     "p95_comprovante_ok": false,
+     "erro_tecnico_ok": true,
+     "integridade_vagas_ok": true
+    },
+    "aprovado": false,
+    "parada": null
+   },
+   "agregado": {
+    "requisicoes": 4333,
+    "p50_ms": 23.0,
+    "p95_ms": 2800.0,
+    "req_s": 36.073179440133586,
+    "falhas_pct": 0.0
+   },
+   "patamar": {
+    "requisicoes": 4151,
+    "p50_ms": 23.0,
+    "p95_ms": 3052.1000000000004,
+    "req_s": 36.06961931823119,
+    "falhas_pct": 0.0
+   },
+   "patamar_por_endpoint": {
+    "GET /api/disciplinas": {
+     "requisicoes": 3617,
+     "p50_ms": 22.9,
+     "p95_ms": 24.4,
+     "req_s": 31.44533797000652,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": {
+     "requisicoes": 90,
+     "p50_ms": 53.1,
+     "p95_ms": 54.055,
+     "req_s": 3.0314257805921385,
+     "falhas_pct": 0.0
+    },
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 444,
+     "p50_ms": 2414.3500000000004,
+     "p95_ms": 6009.659999999996,
+     "req_s": 3.860936711942817,
+     "falhas_pct": 0.0
+    }
+   },
+   "regime_t30_por_endpoint": {
+    "GET /api/disciplinas": {
+     "requisicoes": 2955,
+     "p50_ms": 23.0,
+     "p95_ms": 24.5,
+     "req_s": 32.831144590360644,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": {
+     "requisicoes": 4,
+     "p50_ms": 52.849999999999994,
+     "p95_ms": 53.07,
+     "req_s": 1.7167381974248939,
+     "falhas_pct": 0.0
+    },
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 344,
+     "p50_ms": 1488.85,
+     "p95_ms": 4762.309999999982,
+     "req_s": 3.8257078671678646,
+     "falhas_pct": 0.0
+    }
+   }
+  },
+  "carga_r2": {
+   "resumo": {
+    "tipo": "carga",
+    "requisicoes": 4281,
+    "falhas_tecnicas": 0,
+    "erro_tecnico_pct": 0.0,
+    "p50_ms": 23,
+    "p95_ms": 1800,
+    "p95_comprovante_ms": 8800,
+    "rps_medio": 35.58,
+    "respostas_negocio": {
+     "201 Matrícula realizada": 95,
+     "409 Vagas esgotadas": 35,
+     "alunos que desistiram (sem vagas)": 5
+    },
+    "por_endpoint": {
+     "GET /api/disciplinas": {
+      "req": 3683,
+      "falhas": 0,
+      "p50_ms": 23,
+      "p95_ms": 26,
+      "max_ms": 150.15822299994852,
+      "rps": 30.610253781408595
+     },
+     "POST /api/matriculas": {
+      "req": 130,
+      "falhas": 0,
+      "p50_ms": 54,
+      "p95_ms": 68,
+      "max_ms": 81.76177999999368,
+      "rps": 1.080459677323681
+     },
+     "GET /api/matriculas/[id]/comprovante": {
+      "req": 468,
+      "falhas": 0,
+      "p50_ms": 1600,
+      "p95_ms": 8800,
+      "max_ms": 9586.101312000012,
+      "rps": 3.889654838365252
+     }
+    },
+    "integridade": {
+     "ES3": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "BD2": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "PW2": {
+      "iniciais": 35,
+      "finais": 0,
+      "consumidas": 35,
+      "matriculas_201": 35,
+      "ok": true
+     },
+     "RED": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "IHC": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "EMP": {
+      "iniciais": 50,
+      "finais": 0,
+      "consumidas": 50,
+      "matriculas_201": 50,
+      "ok": true
+     },
+     "MOB": {
+      "iniciais": 5,
+      "finais": 0,
+      "consumidas": 5,
+      "matriculas_201": 5,
+      "ok": true
+     }
+    },
+    "sla": {
+     "p95_geral_ok": false,
+     "p95_comprovante_ok": false,
+     "erro_tecnico_ok": true,
+     "integridade_vagas_ok": true
+    },
+    "aprovado": false,
+    "parada": null
+   },
+   "agregado": {
+    "requisicoes": 4280,
+    "p50_ms": 23.0,
+    "p95_ms": 1800.0,
+    "req_s": 35.61421839832492,
+    "falhas_pct": 0.0
+   },
+   "patamar": {
+    "requisicoes": 4104,
+    "p50_ms": 23.3,
+    "p95_ms": 1770.359999999999,
+    "req_s": 35.611089418196016,
+    "falhas_pct": 0.0
+   },
+   "patamar_por_endpoint": {
+    "GET /api/disciplinas": {
+     "requisicoes": 3568,
+     "p50_ms": 23.2,
+     "p95_ms": 25.0,
+     "req_s": 30.960128422057355,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": {
+     "requisicoes": 87,
+     "p50_ms": 53.5,
+     "p95_ms": 55.61,
+     "req_s": 4.292692554398776,
+     "falhas_pct": 0.0
+    },
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 449,
+     "p50_ms": 1652.4,
+     "p95_ms": 8819.019999999999,
+     "req_s": 3.903193838343446,
+     "falhas_pct": 0.0
+    }
+   },
+   "regime_t30_por_endpoint": {
+    "GET /api/disciplinas": {
+     "requisicoes": 3025,
+     "p50_ms": 23.2,
+     "p95_ms": 25.0,
+     "req_s": 33.516520043432976,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": null,
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 349,
+     "p50_ms": 1287.0,
+     "p95_ms": 5657.939999999998,
+     "req_s": 3.879545126113007,
+     "falhas_pct": 0.0
+    }
+   }
+  },
+  "carga_r3": {
+   "resumo": {
+    "tipo": "carga",
+    "requisicoes": 4327,
+    "falhas_tecnicas": 0,
+    "erro_tecnico_pct": 0.0,
+    "p50_ms": 23,
+    "p95_ms": 1600,
+    "p95_comprovante_ms": 6700,
+    "rps_medio": 36.01,
+    "respostas_negocio": {
+     "201 Matrícula realizada": 94,
+     "409 Vagas esgotadas": 30,
+     "alunos que desistiram (sem vagas)": 6
+    },
+    "por_endpoint": {
+     "GET /api/disciplinas": {
+      "req": 3747,
+      "falhas": 0,
+      "p50_ms": 23,
+      "p95_ms": 25,
+      "max_ms": 48.20365699998774,
+      "rps": 31.17912599934231
+     },
+     "POST /api/matriculas": {
+      "req": 124,
+      "falhas": 0,
+      "p50_ms": 54,
+      "p95_ms": 64,
+      "max_ms": 72.33345500003452,
+      "rps": 1.0318152185530949
+     },
+     "GET /api/matriculas/[id]/comprovante": {
+      "req": 456,
+      "falhas": 0,
+      "p50_ms": 1500,
+      "p95_ms": 6700,
+      "max_ms": 7890.119581000022,
+      "rps": 3.7944172553242845
+     }
+    },
+    "integridade": {
+     "ES3": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "BD2": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "PW2": {
+      "iniciais": 35,
+      "finais": 0,
+      "consumidas": 35,
+      "matriculas_201": 35,
+      "ok": true
+     },
+     "RED": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "IHC": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "EMP": {
+      "iniciais": 50,
+      "finais": 0,
+      "consumidas": 50,
+      "matriculas_201": 50,
+      "ok": true
+     },
+     "MOB": {
+      "iniciais": 5,
+      "finais": 0,
+      "consumidas": 5,
+      "matriculas_201": 5,
+      "ok": true
+     }
+    },
+    "sla": {
+     "p95_geral_ok": false,
+     "p95_comprovante_ok": false,
+     "erro_tecnico_ok": true,
+     "integridade_vagas_ok": true
+    },
+    "aprovado": false,
+    "parada": null
+   },
+   "agregado": {
+    "requisicoes": 4326,
+    "p50_ms": 23.0,
+    "p95_ms": 1600.0,
+    "req_s": 36.009918259587586,
+    "falhas_pct": 0.0
+   },
+   "patamar": {
+    "requisicoes": 4147,
+    "p50_ms": 23.2,
+    "p95_ms": 1602.44,
+    "req_s": 36.04175176645431,
+    "falhas_pct": 0.0
+   },
+   "patamar_por_endpoint": {
+    "GET /api/disciplinas": {
+     "requisicoes": 3628,
+     "p50_ms": 23.0,
+     "p95_ms": 24.5,
+     "req_s": 31.531100894308235,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": {
+     "requisicoes": 82,
+     "p50_ms": 53.4,
+     "p95_ms": 54.985,
+     "req_s": 2.944767650650004,
+     "falhas_pct": 0.0
+    },
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 437,
+     "p50_ms": 1527.7,
+     "p95_ms": 6740.66,
+     "req_s": 3.8048636082644776,
+     "falhas_pct": 0.0
+    }
+   },
+   "regime_t30_por_endpoint": {
+    "GET /api/disciplinas": {
+     "requisicoes": 3015,
+     "p50_ms": 23.0,
+     "p95_ms": 24.5,
+     "req_s": 33.46096221075412,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": {
+     "requisicoes": 2,
+     "p50_ms": 53.150000000000006,
+     "p95_ms": 53.195,
+     "req_s": 2.0,
+     "falhas_pct": 0.0
+    },
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 337,
+     "p50_ms": 1178.8,
+     "p95_ms": 6333.379999999999,
+     "req_s": 3.753829016986912,
+     "falhas_pct": 0.0
+    }
+   }
+  },
+  "pico_r1": {
+   "resumo": {
+    "tipo": "pico",
+    "requisicoes": 5157,
+    "falhas_tecnicas": 0,
+    "erro_tecnico_pct": 0.0,
+    "p50_ms": 23,
+    "p95_ms": 1500,
+    "p95_comprovante_ms": 11000,
+    "rps_medio": 51.49,
+    "respostas_negocio": {
+     "201 Matrícula realizada": 96,
+     "409 Vagas esgotadas": 159,
+     "alunos que desistiram (sem vagas)": 104
+    },
+    "por_endpoint": {
+     "GET /api/disciplinas": {
+      "req": 4609,
+      "falhas": 0,
+      "p50_ms": 23,
+      "p95_ms": 27,
+      "max_ms": 106.41590900002029,
+      "rps": 46.018965866577304
+     },
+     "POST /api/matriculas": {
+      "req": 255,
+      "falhas": 0,
+      "p50_ms": 54,
+      "p95_ms": 71,
+      "max_ms": 99.04338399996959,
+      "rps": 2.5460699275281433
+     },
+     "GET /api/matriculas/[id]/comprovante": {
+      "req": 293,
+      "falhas": 0,
+      "p50_ms": 5000,
+      "p95_ms": 11000,
+      "max_ms": 12379.092549999996,
+      "rps": 2.925484269669592
+     }
+    },
+    "integridade": {
+     "ES3": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "BD2": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "PW2": {
+      "iniciais": 35,
+      "finais": 0,
+      "consumidas": 35,
+      "matriculas_201": 35,
+      "ok": true
+     },
+     "RED": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "IHC": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "EMP": {
+      "iniciais": 50,
+      "finais": 0,
+      "consumidas": 50,
+      "matriculas_201": 50,
+      "ok": true
+     },
+     "MOB": {
+      "iniciais": 5,
+      "finais": 0,
+      "consumidas": 5,
+      "matriculas_201": 5,
+      "ok": true
+     }
+    },
+    "sla": {
+     "p95_geral_ok": false,
+     "p95_comprovante_ok": false,
+     "erro_tecnico_ok": true,
+     "integridade_vagas_ok": true
+    },
+    "aprovado": false,
+    "parada": null
+   },
+   "agregado": {
+    "requisicoes": 5156,
+    "p50_ms": 23.0,
+    "p95_ms": 1500.0,
+    "req_s": 51.50239357846785,
+    "falhas_pct": 0.0
+   },
+   "pico_0_70": {
+    "GET /api/disciplinas": {
+     "requisicoes": 4292,
+     "p50_ms": 23.1,
+     "p95_ms": 26.944999999999983,
+     "req_s": 61.349342481417956,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": {
+     "requisicoes": 255,
+     "p50_ms": 53.5,
+     "p95_ms": 70.88999999999999,
+     "req_s": 12.799919686778436,
+     "falhas_pct": 0.0
+    },
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 278,
+     "p50_ms": 5293.15,
+     "p95_ms": 10916.509999999997,
+     "req_s": 4.00230348401958,
+     "falhas_pct": 0.0
+    }
+   },
+   "volta_70_100": {
+    "GET /api/disciplinas": {
+     "requisicoes": 200,
+     "p50_ms": 23.5,
+     "p95_ms": 25.2,
+     "req_s": 7.975117632985086,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": null,
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 7,
+     "p50_ms": 253.6,
+     "p95_ms": 254.10999999999999,
+     "req_s": 0.29036004645760755,
+     "falhas_pct": 0.0
+    }
+   },
+   "serie": {
+    "GET /api/disciplinas": [
+     [
+      2.5,
+      80,
+      41.0,
+      0.0,
+      24.2
+     ],
+     [
+      7.5,
+      160,
+      53.24,
+      0.0,
+      47.8
+     ],
+     [
+      12.5,
+      200,
+      24.889999999999997,
+      0.0,
+      44.4
+     ],
+     [
+      17.5,
+      200,
+      25.81,
+      0.0,
+      55.8
+     ],
+     [
+      22.5,
+      200,
+      25.130000000000003,
+      0.0,
+      63.0
+     ],
+     [
+      27.5,
+      200,
+      25.819999999999993,
+      0.0,
+      63.8
+     ],
+     [
+      32.5,
+      200,
+      26.0,
+      0.0,
+      65.0
+     ],
+     [
+      37.5,
+      200,
+      24.984999999999996,
+      0.0,
+      68.8
+     ],
+     [
+      42.5,
+      200,
+      25.0,
+      0.0,
+      69.6
+     ],
+     [
+      47.5,
+      200,
+      25.5,
+      0.0,
+      72.6
+     ],
+     [
+      52.5,
+      200,
+      25.49,
+      0.0,
+      70.4
+     ],
+     [
+      57.5,
+      200,
+      25.405,
+      0.0,
+      72.0
+     ],
+     [
+      62.5,
+      200,
+      24.655,
+      0.0,
+      70.0
+     ],
+     [
+      67.5,
+      200,
+      25.4,
+      0.0,
+      71.0
+     ],
+     [
+      72.5,
+      100,
+      24.259999999999994,
+      0.0,
+      23.4
+     ],
+     [
+      77.5,
+      20,
+      25.09,
+      0.0,
+      8.4
+     ],
+     [
+      82.5,
+      20,
+      26.099999999999998,
+      0.0,
+      7.4
+     ],
+     [
+      87.5,
+      20,
+      25.22,
+      0.0,
+      7.8
+     ],
+     [
+      92.5,
+      20,
+      25.06,
+      0.0,
+      7.0
+     ],
+     [
+      97.5,
+      20,
+      23.9,
+      0.0,
+      8.8
+     ],
+     [
+      102.5,
+      20,
+      36.66,
+      0.0,
+      0.6
+     ]
+    ],
+    "POST /api/matriculas": [
+     [
+      2.5,
+      80,
+      73.565,
+      0.0,
+      8.0
+     ],
+     [
+      7.5,
+      160,
+      70.98,
+      0.0,
+      17.4
+     ],
+     [
+      12.5,
+      200,
+      54.93,
+      0.0,
+      18.0
+     ],
+     [
+      17.5,
+      200,
+      55.175,
+      0.0,
+      7.6
+     ]
+    ],
+    "GET /api/matriculas/[id]/comprovante": [
+     [
+      2.5,
+      60,
+      2039.8999999999996,
+      0.0,
+      3.8
+     ],
+     [
+      7.5,
+      160,
+      4542.13,
+      0.0,
+      4.0
+     ],
+     [
+      12.5,
+      200,
+      7559.9400000000005,
+      0.0,
+      4.0
+     ],
+     [
+      17.5,
+      200,
+      8779.335000000001,
+      0.0,
+      4.0
+     ],
+     [
+      22.5,
+      200,
+      10717.9,
+      0.0,
+      4.0
+     ],
+     [
+      27.5,
+      200,
+      12329.320000000002,
+      0.0,
+      4.0
+     ],
+     [
+      32.5,
+      200,
+      8863.15,
+      0.0,
+      4.0
+     ],
+     [
+      37.5,
+      200,
+      7573.465,
+      0.0,
+      4.0
+     ],
+     [
+      42.5,
+      200,
+      5786.035,
+      0.0,
+      4.0
+     ],
+     [
+      47.5,
+      200,
+      5737.679999999999,
+      0.0,
+      4.0
+     ],
+     [
+      52.5,
+      200,
+      2627.2899999999995,
+      0.0,
+      3.8
+     ],
+     [
+      57.5,
+      200,
+      1934.95,
+      0.0,
+      4.0
+     ],
+     [
+      62.5,
+      200,
+      1902.235,
+      0.0,
+      4.0
+     ],
+     [
+      67.5,
+      200,
+      3283.2900000000004,
+      0.0,
+      4.0
+     ],
+     [
+      72.5,
+      125,
+      3435.305,
+      0.0,
+      1.6
+     ],
+     [
+      77.5,
+      20,
+      253.6,
+      0.0,
+      0.2
+     ],
+     [
+      82.5,
+      20,
+      254.16,
+      0.0,
+      0.4
+     ],
+     [
+      87.5,
+      20,
+      253.9,
+      0.0,
+      0.2
+     ],
+     [
+      92.5,
+      20,
+      253.76000000000002,
+      0.0,
+      0.4
+     ],
+     [
+      97.5,
+      20,
+      253.1,
+      0.0,
+      0.2
+     ]
+    ]
+   }
+  },
+  "pico_r2": {
+   "resumo": {
+    "tipo": "pico",
+    "requisicoes": 5288,
+    "falhas_tecnicas": 0,
+    "erro_tecnico_pct": 0.0,
+    "p50_ms": 23,
+    "p95_ms": 1200,
+    "p95_comprovante_ms": 9100,
+    "rps_medio": 52.84,
+    "respostas_negocio": {
+     "201 Matrícula realizada": 98,
+     "409 Vagas esgotadas": 197,
+     "alunos que desistiram (sem vagas)": 102
+    },
+    "por_endpoint": {
+     "GET /api/disciplinas": {
+      "req": 4701,
+      "falhas": 0,
+      "p50_ms": 23,
+      "p95_ms": 26,
+      "max_ms": 66.06945099997574,
+      "rps": 46.970331088657694
+     },
+     "POST /api/matriculas": {
+      "req": 295,
+      "falhas": 0,
+      "p50_ms": 53,
+      "p95_ms": 66,
+      "max_ms": 72.1282090000841,
+      "rps": 2.947510672442889
+     },
+     "GET /api/matriculas/[id]/comprovante": {
+      "req": 292,
+      "falhas": 0,
+      "p50_ms": 3000,
+      "p95_ms": 9100,
+      "max_ms": 10527.294877000031,
+      "rps": 2.917535987638385
+     }
+    },
+    "integridade": {
+     "ES3": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "BD2": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "PW2": {
+      "iniciais": 35,
+      "finais": 0,
+      "consumidas": 35,
+      "matriculas_201": 35,
+      "ok": true
+     },
+     "RED": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "IHC": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "EMP": {
+      "iniciais": 50,
+      "finais": 0,
+      "consumidas": 50,
+      "matriculas_201": 50,
+      "ok": true
+     },
+     "MOB": {
+      "iniciais": 5,
+      "finais": 0,
+      "consumidas": 5,
+      "matriculas_201": 5,
+      "ok": true
+     }
+    },
+    "sla": {
+     "p95_geral_ok": false,
+     "p95_comprovante_ok": false,
+     "erro_tecnico_ok": true,
+     "integridade_vagas_ok": true
+    },
+    "aprovado": false,
+    "parada": null
+   },
+   "agregado": {
+    "requisicoes": 5288,
+    "p50_ms": 23.0,
+    "p95_ms": 1200.0,
+    "req_s": 52.83537774873897,
+    "falhas_pct": 0.0
+   },
+   "pico_0_70": {
+    "GET /api/disciplinas": {
+     "requisicoes": 4360,
+     "p50_ms": 22.8,
+     "p95_ms": 26.810000000000038,
+     "req_s": 62.31954489580059,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": {
+     "requisicoes": 295,
+     "p50_ms": 53.4,
+     "p95_ms": 65.96000000000001,
+     "req_s": 14.119561575647346,
+     "falhas_pct": 0.0
+    },
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 278,
+     "p50_ms": 3114.75,
+     "p95_ms": 9072.739999999998,
+     "req_s": 4.003686848320755,
+     "falhas_pct": 0.0
+    }
+   },
+   "volta_70_100": {
+    "GET /api/disciplinas": {
+     "requisicoes": 195,
+     "p50_ms": 23.5,
+     "p95_ms": 25.2,
+     "req_s": 7.79438804061076,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": null,
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 8,
+     "p50_ms": 253.45,
+     "p95_ms": 369.1299999999999,
+     "req_s": 0.4420866489832006,
+     "falhas_pct": 0.0
+    }
+   },
+   "serie": {
+    "GET /api/disciplinas": [
+     [
+      2.5,
+      80,
+      36.1,
+      0.0,
+      23.4
+     ],
+     [
+      7.5,
+      160,
+      38.96,
+      0.0,
+      49.8
+     ],
+     [
+      12.5,
+      200,
+      24.77,
+      0.0,
+      48.8
+     ],
+     [
+      17.5,
+      200,
+      25.2,
+      0.0,
+      51.0
+     ],
+     [
+      22.5,
+      200,
+      24.909999999999997,
+      0.0,
+      63.8
+     ],
+     [
+      27.5,
+      200,
+      24.2,
+      0.0,
+      64.8
+     ],
+     [
+      32.5,
+      200,
+      24.355,
+      0.0,
+      70.0
+     ],
+     [
+      37.5,
+      200,
+      24.98,
+      0.0,
+      69.0
+     ],
+     [
+      42.5,
+      200,
+      24.955000000000002,
+      0.0,
+      74.0
+     ],
+     [
+      47.5,
+      200,
+      24.105000000000004,
+      0.0,
+      72.0
+     ],
+     [
+      52.5,
+      200,
+      25.04,
+      0.0,
+      69.4
+     ],
+     [
+      57.5,
+      200,
+      26.080000000000002,
+      0.0,
+      73.0
+     ],
+     [
+      62.5,
+      200,
+      25.134999999999998,
+      0.0,
+      70.8
+     ],
+     [
+      67.5,
+      200,
+      24.2,
+      0.0,
+      72.2
+     ],
+     [
+      72.5,
+      100,
+      24.4,
+      0.0,
+      29.2
+     ],
+     [
+      77.5,
+      20,
+      24.29,
+      0.0,
+      8.6
+     ],
+     [
+      82.5,
+      20,
+      24.389999999999997,
+      0.0,
+      8.6
+     ],
+     [
+      87.5,
+      20,
+      23.96,
+      0.0,
+      5.8
+     ],
+     [
+      92.5,
+      20,
+      27.69999999999998,
+      0.0,
+      7.6
+     ],
+     [
+      97.5,
+      20,
+      25.3,
+      0.0,
+      8.2
+     ],
+     [
+      102.5,
+      20,
+      23.3,
+      0.0,
+      0.2
+     ]
+    ],
+    "POST /api/matriculas": [
+     [
+      2.5,
+      80,
+      68.46,
+      0.0,
+      9.0
+     ],
+     [
+      7.5,
+      160,
+      66.2,
+      0.0,
+      16.8
+     ],
+     [
+      12.5,
+      200,
+      54.97,
+      0.0,
+      16.8
+     ],
+     [
+      17.5,
+      200,
+      55.13,
+      0.0,
+      15.6
+     ],
+     [
+      22.5,
+      200,
+      54.595,
+      0.0,
+      0.8
+     ]
+    ],
+    "GET /api/matriculas/[id]/comprovante": [
+     [
+      2.5,
+      60,
+      1505.87,
+      0.0,
+      3.8
+     ],
+     [
+      7.5,
+      160,
+      3534.7450000000003,
+      0.0,
+      4.0
+     ],
+     [
+      12.5,
+      200,
+      5820.035,
+      0.0,
+      4.0
+     ],
+     [
+      17.5,
+      200,
+      6416.255,
+      0.0,
+      4.0
+     ],
+     [
+      22.5,
+      200,
+      8311.44,
+      0.0,
+      4.0
+     ],
+     [
+      27.5,
+      200,
+      10390.215,
+      0.0,
+      4.0
+     ],
+     [
+      32.5,
+      200,
+      9003.48,
+      0.0,
+      4.0
+     ],
+     [
+      37.5,
+      200,
+      3712.875,
+      0.0,
+      4.0
+     ],
+     [
+      42.5,
+      200,
+      3166.98,
+      0.0,
+      4.0
+     ],
+     [
+      47.5,
+      200,
+      2741.28,
+      0.0,
+      4.0
+     ],
+     [
+      52.5,
+      200,
+      3974.71,
+      0.0,
+      4.0
+     ],
+     [
+      57.5,
+      200,
+      3334.59,
+      0.0,
+      4.0
+     ],
+     [
+      62.5,
+      200,
+      2552.84,
+      0.0,
+      3.8
+     ],
+     [
+      67.5,
+      200,
+      2945.965,
+      0.0,
+      4.0
+     ],
+     [
+      72.5,
+      125,
+      1932.7,
+      0.0,
+      1.2
+     ],
+     [
+      77.5,
+      20,
+      253.5,
+      0.0,
+      0.2
+     ],
+     [
+      87.5,
+      20,
+      254.51,
+      0.0,
+      0.8
+     ],
+     [
+      97.5,
+      20,
+      413.06,
+      0.0,
+      0.6
+     ]
+    ]
+   }
+  },
+  "pico_r3": {
+   "resumo": {
+    "tipo": "pico",
+    "requisicoes": 5352,
+    "falhas_tecnicas": 0,
+    "erro_tecnico_pct": 0.0,
+    "p50_ms": 23,
+    "p95_ms": 250,
+    "p95_comprovante_ms": 11000,
+    "rps_medio": 53.42,
+    "respostas_negocio": {
+     "201 Matrícula realizada": 95,
+     "409 Vagas esgotadas": 171,
+     "alunos que desistiram (sem vagas)": 105
+    },
+    "por_endpoint": {
+     "GET /api/disciplinas": {
+      "req": 4807,
+      "falhas": 0,
+      "p50_ms": 23,
+      "p95_ms": 27,
+      "max_ms": 56.35942300000352,
+      "rps": 47.98238061637814
+     },
+     "POST /api/matriculas": {
+      "req": 266,
+      "falhas": 0,
+      "p50_ms": 54,
+      "p95_ms": 68,
+      "max_ms": 79.21634600006655,
+      "rps": 2.655151496558474
+     },
+     "GET /api/matriculas/[id]/comprovante": {
+      "req": 279,
+      "falhas": 0,
+      "p50_ms": 1700,
+      "p95_ms": 11000,
+      "max_ms": 11706.358654999916,
+      "rps": 2.784914539623362
+     }
+    },
+    "integridade": {
+     "ES3": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "BD2": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "PW2": {
+      "iniciais": 35,
+      "finais": 0,
+      "consumidas": 35,
+      "matriculas_201": 35,
+      "ok": true
+     },
+     "RED": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "IHC": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "EMP": {
+      "iniciais": 50,
+      "finais": 0,
+      "consumidas": 50,
+      "matriculas_201": 50,
+      "ok": true
+     },
+     "MOB": {
+      "iniciais": 5,
+      "finais": 0,
+      "consumidas": 5,
+      "matriculas_201": 5,
+      "ok": true
+     }
+    },
+    "sla": {
+     "p95_geral_ok": true,
+     "p95_comprovante_ok": false,
+     "erro_tecnico_ok": true,
+     "integridade_vagas_ok": true
+    },
+    "aprovado": false,
+    "parada": null
+   },
+   "agregado": {
+    "requisicoes": 5351,
+    "p50_ms": 23.0,
+    "p95_ms": 250.0,
+    "req_s": 53.437697563339476,
+    "falhas_pct": 0.0
+   },
+   "pico_0_70": {
+    "GET /api/disciplinas": {
+     "requisicoes": 4485,
+     "p50_ms": 22.9,
+     "p95_ms": 27.680000000000017,
+     "req_s": 64.13648128816372,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": {
+     "requisicoes": 266,
+     "p50_ms": 53.5,
+     "p95_ms": 68.2,
+     "req_s": 12.751677852348994,
+     "falhas_pct": 0.0
+    },
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 257,
+     "p50_ms": 2790.8,
+     "p95_ms": 10793.04,
+     "req_s": 3.764630055517307,
+     "falhas_pct": 0.0
+    }
+   },
+   "volta_70_100": {
+    "GET /api/disciplinas": {
+     "requisicoes": 188,
+     "p50_ms": 23.4,
+     "p95_ms": 24.6,
+     "req_s": 7.504990019960081,
+     "falhas_pct": 0.0
+    },
+    "POST /api/matriculas": null,
+    "GET /api/matriculas/[id]/comprovante": {
+     "requisicoes": 14,
+     "p50_ms": 253.35000000000002,
+     "p95_ms": 464.47499999999997,
+     "req_s": 0.6602527824938693,
+     "falhas_pct": 0.0
+    }
+   },
+   "serie": {
+    "GET /api/disciplinas": [
+     [
+      2.5,
+      80,
+      41.905,
+      0.0,
+      20.0
+     ],
+     [
+      7.5,
+      160,
+      36.519999999999996,
+      0.0,
+      48.0
+     ],
+     [
+      12.5,
+      200,
+      25.2,
+      0.0,
+      47.0
+     ],
+     [
+      17.5,
+      200,
+      26.3,
+      0.0,
+      52.2
+     ],
+     [
+      22.5,
+      200,
+      25.68500000000001,
+      0.0,
+      66.0
+     ],
+     [
+      27.5,
+      200,
+      25.06,
+      0.0,
+      65.8
+     ],
+     [
+      32.5,
+      200,
+      25.02999999999999,
+      0.0,
+      71.8
+     ],
+     [
+      37.5,
+      200,
+      25.2,
+      0.0,
+      72.0
+     ],
+     [
+      42.5,
+      200,
+      25.889999999999997,
+      0.0,
+      76.4
+     ],
+     [
+      47.5,
+      200,
+      27.55999999999999,
+      0.0,
+      73.6
+     ],
+     [
+      52.5,
+      200,
+      25.939999999999987,
+      0.0,
+      74.8
+     ],
+     [
+      57.5,
+      200,
+      24.99,
+      0.0,
+      74.4
+     ],
+     [
+      62.5,
+      200,
+      24.6,
+      0.0,
+      76.4
+     ],
+     [
+      67.5,
+      200,
+      24.74,
+      0.0,
+      78.6
+     ],
+     [
+      72.5,
+      100,
+      24.635,
+      0.0,
+      26.8
+     ],
+     [
+      77.5,
+      20,
+      23.939999999999998,
+      0.0,
+      7.4
+     ],
+     [
+      82.5,
+      20,
+      24.475,
+      0.0,
+      7.2
+     ],
+     [
+      87.5,
+      20,
+      24.1,
+      0.0,
+      6.8
+     ],
+     [
+      92.5,
+      20,
+      25.27,
+      0.0,
+      8.4
+     ],
+     [
+      97.5,
+      20,
+      24.225,
+      0.0,
+      7.2
+     ],
+     [
+      102.5,
+      20,
+      28.39,
+      0.0,
+      0.6
+     ]
+    ],
+    "POST /api/matriculas": [
+     [
+      2.5,
+      60,
+      76.03999999999999,
+      0.0,
+      11.4
+     ],
+     [
+      7.5,
+      160,
+      67.36,
+      0.0,
+      15.6
+     ],
+     [
+      12.5,
+      200,
+      55.11,
+      0.0,
+      16.0
+     ],
+     [
+      17.5,
+      200,
+      55.199999999999996,
+      0.0,
+      9.8
+     ],
+     [
+      22.5,
+      200,
+      53.07,
+      0.0,
+      0.4
+     ]
+    ],
+    "GET /api/matriculas/[id]/comprovante": [
+     [
+      2.5,
+      60,
+      3303.2099999999996,
+      0.0,
+      3.8
+     ],
+     [
+      7.5,
+      160,
+      5322.75,
+      0.0,
+      4.0
+     ],
+     [
+      12.5,
+      200,
+      7568.3,
+      0.0,
+      4.0
+     ],
+     [
+      17.5,
+      200,
+      9295.145,
+      0.0,
+      4.0
+     ],
+     [
+      22.5,
+      200,
+      10391.48,
+      0.0,
+      4.0
+     ],
+     [
+      27.5,
+      200,
+      11651.3,
+      0.0,
+      4.0
+     ],
+     [
+      32.5,
+      200,
+      10084.615,
+      0.0,
+      4.0
+     ],
+     [
+      37.5,
+      200,
+      3320.2300000000005,
+      0.0,
+      4.0
+     ],
+     [
+      42.5,
+      200,
+      1005.62,
+      0.0,
+      4.0
+     ],
+     [
+      47.5,
+      200,
+      1488.4899999999998,
+      0.0,
+      3.6
+     ],
+     [
+      52.5,
+      200,
+      651.3100000000001,
+      0.0,
+      2.8
+     ],
+     [
+      57.5,
+      200,
+      696.8799999999999,
+      0.0,
+      3.4
+     ],
+     [
+      62.5,
+      200,
+      630.31,
+      0.0,
+      3.0
+     ],
+     [
+      67.5,
+      200,
+      594.515,
+      0.0,
+      2.8
+     ],
+     [
+      72.5,
+      100,
+      657.3449999999999,
+      0.0,
+      1.6
+     ],
+     [
+      77.5,
+      20,
+      253.2,
+      0.0,
+      0.2
+     ],
+     [
+      82.5,
+      20,
+      253.66,
+      0.0,
+      0.6
+     ],
+     [
+      87.5,
+      20,
+      253.375,
+      0.0,
+      0.4
+     ],
+     [
+      92.5,
+      20,
+      253.17499999999998,
+      0.0,
+      0.4
+     ],
+     [
+      97.5,
+      20,
+      507.875,
+      0.0,
+      1.2
+     ]
+    ]
+   }
+  },
+  "estresse_r1": {
+   "resumo": {
+    "tipo": "estresse",
+    "requisicoes": 21332,
+    "falhas_tecnicas": 0,
+    "erro_tecnico_pct": 0.0,
+    "p50_ms": 23,
+    "p95_ms": 59,
+    "p95_comprovante_ms": 3100,
+    "rps_medio": 88.75,
+    "respostas_negocio": {
+     "201 Matrícula realizada": 93,
+     "409 Vagas esgotadas": 151,
+     "alunos que desistiram (sem vagas)": 279,
+     "409 Aluno já possui matrícula neste semestre.": 28
+    },
+    "por_endpoint": {
+     "GET /api/disciplinas": {
+      "req": 20195,
+      "falhas": 0,
+      "p50_ms": 23,
+      "p95_ms": 25,
+      "max_ms": 82.61793499991654,
+      "rps": 84.01505682004804
+     },
+     "POST /api/matriculas": {
+      "req": 272,
+      "falhas": 0,
+      "p50_ms": 54,
+      "p95_ms": 88,
+      "max_ms": 103.79735100002563,
+      "rps": 1.131571946276458
+     },
+     "GET /api/matriculas/[id]/comprovante": {
+      "req": 865,
+      "falhas": 0,
+      "p50_ms": 1200,
+      "p95_ms": 3100,
+      "max_ms": 4591.52799200001,
+      "rps": 3.598565196798295
+     }
+    },
+    "integridade": {
+     "ES3": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "BD2": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+     },
+     "PW2": {
+      "iniciais": 35,
+      "finais": 0,
+      "consumidas": 35,
+      "matriculas_201": 35,
+      "ok": true
+     },
+     "RED": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "IHC": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+     },
+     "EMP": {
+      "iniciais": 50,
+      "finais": 0,
+      "consumidas": 50,
+      "matriculas_201": 50,
+      "ok": true
+     },
+     "MOB": {
+      "iniciais": 5,
+      "finais": 0,
+      "consumidas": 5,
+      "matriculas_201": 5,
+      "ok": true
+     }
+    },
+    "sla": {
+     "p95_geral_ok": true,
+     "p95_comprovante_ok": false,
+     "erro_tecnico_ok": true,
+     "integridade_vagas_ok": true
+    },
+    "aprovado": false,
+    "parada": null
+   },
+   "agregado": {
+    "requisicoes": 21331,
+    "p50_ms": 23.0,
+    "p95_ms": 59.0,
+    "req_s": 88.75398514761055,
+    "falhas_pct": 0.0
+   },
+   "degraus": {
+    "50": {
+     "consulta": {
+      "requisicoes": 417,
+      "p50_ms": 23.0,
+      "p95_ms": 24.1,
+      "req_s": 16.789467326971856,
+      "falhas_pct": 0.0
+     },
+     "matrícula": {
+      "requisicoes": 24,
+      "p50_ms": 53.0,
+      "p95_ms": 53.8,
+      "req_s": 1.0285861226588953,
+      "falhas_pct": 0.0
+     },
+     "comprovante": {
+      "requisicoes": 65,
+      "p50_ms": 509.1,
+      "p95_ms": 1916.0599999999995,
+      "req_s": 2.6139059798126034,
+      "falhas_pct": 0.0
+     },
+     "geral": {
+      "requisicoes": 506,
+      "p50_ms": 23.15,
+      "p95_ms": 662.375,
+      "req_s": 20.288692862870892,
+      "falhas_pct": 0.0
+     }
+    },
+    "100": {
+     "consulta": {
+      "requisicoes": 789,
+      "p50_ms": 22.8,
+      "p95_ms": 24.3,
+      "req_s": 31.671483622350674,
+      "falhas_pct": 0.0
+     },
+     "matrícula": {
+      "requisicoes": 46,
+      "p50_ms": 52.9,
+      "p95_ms": 53.8,
+      "req_s": 2.065744566193641,
+      "falhas_pct": 0.0
+     },
+     "comprovante": {
+      "requisicoes": 99,
+      "p50_ms": 2305.6,
+      "p95_ms": 4031.299999999999,
+      "req_s": 4.013296578563321,
+      "falhas_pct": 0.0
+     },
+     "geral": {
+      "requisicoes": 934,
+      "p50_ms": 22.9,
+      "p95_ms": 2415.8599999999988,
+      "req_s": 37.49197174052666,
+      "falhas_pct": 0.0
+     }
+    },
+    "150": {
+     "consulta": {
+      "requisicoes": 1341,
+      "p50_ms": 22.7,
+      "p95_ms": 24.2,
+      "req_s": 53.663611989275275,
+      "falhas_pct": 0.0
+     },
+     "matrícula": {
+      "requisicoes": 1,
+      "p50_ms": 52.9,
+      "p95_ms": 52.9,
+      "req_s": 1.0,
+      "falhas_pct": 0.0
+     },
+     "comprovante": {
+      "requisicoes": 91,
+      "p50_ms": 1004.4,
+      "p95_ms": 2819.3500000000004,
+      "req_s": 3.671723692704972,
+      "falhas_pct": 0.0
+     },
+     "geral": {
+      "requisicoes": 1433,
+      "p50_ms": 22.7,
+      "p95_ms": 423.5799999999968,
+      "req_s": 57.345231902036886,
+      "falhas_pct": 0.0
+     }
+    },
+    "200": {
+     "consulta": {
+      "requisicoes": 1854,
+      "p50_ms": 22.7,
+      "p95_ms": 24.9,
+      "req_s": 74.23126201153107,
+      "falhas_pct": 0.0
+     },
+     "matrícula": null,
+     "comprovante": {
+      "requisicoes": 92,
+      "p50_ms": 1643.35,
+      "p95_ms": 3133.485,
+      "req_s": 3.720027495855405,
+      "falhas_pct": 0.0
+     },
+     "geral": {
+      "requisicoes": 1946,
+      "p50_ms": 22.7,
+      "p95_ms": 31.825,
+      "req_s": 77.91479820627804,
+      "falhas_pct": 0.0
+     }
+    },
+    "250": {
+     "consulta": {
+      "requisicoes": 2306,
+      "p50_ms": 22.7,
+      "p95_ms": 24.7,
+      "req_s": 92.32124269357031,
+      "falhas_pct": 0.0
+     },
+     "matrícula": null,
+     "comprovante": {
+      "requisicoes": 99,
+      "p50_ms": 1378.8,
+      "p95_ms": 2205.5299999999997,
+      "req_s": 3.997577225923685,
+      "falhas_pct": 0.0
+     },
+     "geral": {
+      "requisicoes": 2405,
+      "p50_ms": 22.7,
+      "p95_ms": 27.1,
+      "req_s": 96.28473056289532,
+      "falhas_pct": 0.0
+     }
+    },
+    "300": {
+     "consulta": {
+      "requisicoes": 2861,
+      "p50_ms": 22.6,
+      "p95_ms": 24.9,
+      "req_s": 114.65555243858452,
+      "falhas_pct": 0.0
+     },
+     "matrícula": null,
+     "comprovante": {
+      "requisicoes": 88,
+      "p50_ms": 1094.6,
+      "p95_ms": 3210.2749999999996,
+      "req_s": 3.55139432584043,
+      "falhas_pct": 0.0
+     },
+     "geral": {
+      "requisicoes": 2949,
+      "p50_ms": 22.6,
+      "p95_ms": 25.6,
+      "req_s": 118.18218250310582,
+      "falhas_pct": 0.0
+     }
+    },
+    "350": {
+     "consulta": {
+      "requisicoes": 3344,
+      "p50_ms": 22.6,
+      "p95_ms": 24.9,
+      "req_s": 133.79211010642555,
+      "falhas_pct": 0.0
+     },
+     "matrícula": {
+      "requisicoes": 2,
+      "p50_ms": 52.7,
+      "p95_ms": 52.879999999999995,
+      "req_s": 1.3192612137202997,
+      "falhas_pct": 0.0
+     },
+     "comprovante": {
+      "requisicoes": 89,
+      "p50_ms": 1114.7,
+      "p95_ms": 2742.46,
+      "req_s": 3.6162691479419786,
+      "falhas_pct": 0.0
+     },
+     "geral": {
+      "requisicoes": 3435,
+      "p50_ms": 22.6,
+      "p95_ms": 26.0,
+      "req_s": 137.43298391613988,
+      "falhas_pct": 0.0
+     }
+    },
+    "400": {
+     "consulta": {
+      "requisicoes": 3857,
+      "p50_ms": 22.6,
+      "p95_ms": 25.2,
+      "req_s": 154.40970415148735,
+      "falhas_pct": 0.0
+     },
+     "matrícula": {
+      "requisicoes": 2,
+      "p50_ms": 52.1,
+      "p95_ms": 52.190000000000005,
+      "req_s": 2.0,
+      "falhas_pct": 0.0
+     },
+     "comprovante": {
+      "requisicoes": 87,
+      "p50_ms": 677.0,
+      "p95_ms": 1360.91,
+      "req_s": 3.5815734222551567,
+      "falhas_pct": 0.0
+     },
+     "geral": {
+      "requisicoes": 3946,
+      "p50_ms": 22.6,
+      "p95_ms": 26.0,
+      "req_s": 157.97269706553516,
+      "falhas_pct": 0.0
+     }
+    }
+   }
+  }
+ },
+ "projeto": {
+  "referencia10": {
+   "usuarios": 10,
+   "rotulo": "referência",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 461,
+      "p50_ms": 2.0,
+      "p95_ms": 3.0,
+      "req_s": 7.806043293776722,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 452,
+      "p50_ms": 1.9,
+      "p95_ms": 3.1,
+      "req_s": 7.798616263220552,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 132,
+       "p50_ms": 1.8,
+       "p95_ms": 2.9,
+       "req_s": 2.3029013067220294,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 48,
+       "p50_ms": 1.9,
+       "p95_ms": 3.1199999999999988,
+       "req_s": 0.8914642299977713,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 51,
+       "p50_ms": 1.9,
+       "p95_ms": 3.0,
+       "req_s": 0.9262286150158003,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 221,
+       "p50_ms": 1.9,
+       "p95_ms": 3.1,
+       "req_s": 3.830421519689406,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 475,
+      "p50_ms": 2.0,
+      "p95_ms": 3.0,
+      "req_s": 8.085167903858833,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 463,
+      "p50_ms": 1.8,
+      "p95_ms": 2.5,
+      "req_s": 8.018704537582265,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 136,
+       "p50_ms": 1.8,
+       "p95_ms": 2.5,
+       "req_s": 2.3553862140630413,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 42,
+       "p50_ms": 1.8,
+       "p95_ms": 2.2,
+       "req_s": 0.7424954919916559,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 51,
+       "p50_ms": 1.8,
+       "p95_ms": 2.6,
+       "req_s": 0.9288264005245137,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 234,
+       "p50_ms": 1.8,
+       "p95_ms": 2.5,
+       "req_s": 4.070273090972343,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 478,
+      "p50_ms": 2.0,
+      "p95_ms": 3.0,
+      "req_s": 8.095638887439481,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 468,
+      "p50_ms": 1.8,
+      "p95_ms": 2.6,
+      "req_s": 8.118798140309487,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 145,
+       "p50_ms": 1.8,
+       "p95_ms": 2.479999999999998,
+       "req_s": 2.53182238829425,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 55,
+       "p50_ms": 1.9,
+       "p95_ms": 2.5599999999999996,
+       "req_s": 0.958873062640562,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 30,
+       "p50_ms": 1.7,
+       "p95_ms": 2.255,
+       "req_s": 0.5965282058419995,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 238,
+       "p50_ms": 1.8,
+       "p95_ms": 2.7,
+       "req_s": 4.142444390294845,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  },
+  "nominal50": {
+   "usuarios": 50,
+   "rotulo": "nominal",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 2302,
+      "p50_ms": 2.0,
+      "p95_ms": 3.0,
+      "req_s": 38.99603493431686,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 2194,
+      "p50_ms": 1.9,
+      "p95_ms": 2.9349999999999907,
+      "req_s": 39.9061459830117,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 687,
+       "p50_ms": 1.9,
+       "p95_ms": 2.9,
+       "req_s": 12.513433270796526,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 208,
+       "p50_ms": 1.9,
+       "p95_ms": 3.164999999999998,
+       "req_s": 3.8139244916295354,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 203,
+       "p50_ms": 1.8,
+       "p95_ms": 2.7899999999999974,
+       "req_s": 3.753212417031819,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 1096,
+       "p50_ms": 1.9,
+       "p95_ms": 2.9,
+       "req_s": 19.93996179386883,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 2297,
+      "p50_ms": 2.0,
+      "p95_ms": 3.0,
+      "req_s": 38.91626033753452,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 2185,
+      "p50_ms": 1.7,
+      "p95_ms": 2.6,
+      "req_s": 39.791662872648466,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 656,
+       "p50_ms": 1.7,
+       "p95_ms": 2.5,
+       "req_s": 11.96425314608791,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 214,
+       "p50_ms": 1.7,
+       "p95_ms": 2.7349999999999994,
+       "req_s": 3.933028247964566,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 210,
+       "p50_ms": 1.6,
+       "p95_ms": 2.8,
+       "req_s": 3.9165951732627104,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 1105,
+       "p50_ms": 1.7,
+       "p95_ms": 2.5,
+       "req_s": 20.123472528273023,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 2302,
+      "p50_ms": 2.0,
+      "p95_ms": 2.0,
+      "req_s": 38.98711233913601,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 2196,
+      "p50_ms": 1.6,
+      "p95_ms": 2.3,
+      "req_s": 39.961421578439754,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 666,
+       "p50_ms": 1.6,
+       "p95_ms": 2.2,
+       "req_s": 12.145970492221837,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 205,
+       "p50_ms": 1.6,
+       "p95_ms": 2.4,
+       "req_s": 3.7543037140136253,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 227,
+       "p50_ms": 1.5,
+       "p95_ms": 2.2699999999999987,
+       "req_s": 4.193298112092216,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 1098,
+       "p50_ms": 1.6,
+       "p95_ms": 2.3,
+       "req_s": 19.980710789219877,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  },
+  "estresse100": {
+   "usuarios": 100,
+   "rotulo": "estresse 1",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 4638,
+      "p50_ms": 2.0,
+      "p95_ms": 3.0,
+      "req_s": 78.53809402073762,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 4421,
+      "p50_ms": 1.5,
+      "p95_ms": 2.6,
+      "req_s": 80.39351178353215,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 1379,
+       "p50_ms": 1.5,
+       "p95_ms": 2.6,
+       "req_s": 25.083672875436555,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 459,
+       "p50_ms": 1.6,
+       "p95_ms": 3.1099999999999968,
+       "req_s": 8.383714771046046,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 437,
+       "p50_ms": 1.5,
+       "p95_ms": 2.4199999999999986,
+       "req_s": 8.082414736997855,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 2146,
+       "p50_ms": 1.5,
+       "p95_ms": 2.6,
+       "req_s": 39.023858015711376,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 4636,
+      "p50_ms": 1.0,
+      "p95_ms": 3.0,
+      "req_s": 78.524638868536,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 4407,
+      "p50_ms": 1.4,
+      "p95_ms": 2.5,
+      "req_s": 80.14767395336996,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 1327,
+       "p50_ms": 1.4,
+       "p95_ms": 2.4,
+       "req_s": 24.154941114367368,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 434,
+       "p50_ms": 1.4,
+       "p95_ms": 2.6349999999999967,
+       "req_s": 7.942317546299686,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 424,
+       "p50_ms": 1.4,
+       "p95_ms": 2.584999999999997,
+       "req_s": 7.743585060725048,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 2222,
+       "p50_ms": 1.4,
+       "p95_ms": 2.4,
+       "req_s": 40.42866760066229,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 4596,
+      "p50_ms": 1.0,
+      "p95_ms": 3.0,
+      "req_s": 77.8483446452315,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 4371,
+      "p50_ms": 1.3,
+      "p95_ms": 2.3,
+      "req_s": 79.50886766712142,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 1330,
+       "p50_ms": 1.3,
+       "p95_ms": 2.2,
+       "req_s": 24.274059608329836,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 418,
+       "p50_ms": 1.4,
+       "p95_ms": 2.2,
+       "req_s": 7.603871061631375,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 408,
+       "p50_ms": 1.3,
+       "p95_ms": 2.2649999999999975,
+       "req_s": 7.493938726030416,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 2215,
+       "p50_ms": 1.3,
+       "p95_ms": 2.3,
+       "req_s": 40.32331470390126,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  },
+  "estresse200": {
+   "usuarios": 200,
+   "rotulo": "estresse 2",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 9218,
+      "p50_ms": 1.0,
+      "p95_ms": 3.0,
+      "req_s": 155.99915586437115,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 8769,
+      "p50_ms": 1.4,
+      "p95_ms": 2.7,
+      "req_s": 159.3842015340434,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 2682,
+       "p50_ms": 1.4,
+       "p95_ms": 2.6,
+       "req_s": 48.75211313689492,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 895,
+       "p50_ms": 1.4,
+       "p95_ms": 2.8,
+       "req_s": 16.284274303597098,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 862,
+       "p50_ms": 1.4,
+       "p95_ms": 2.694999999999993,
+       "req_s": 15.682992504184558,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 4330,
+       "p50_ms": 1.4,
+       "p95_ms": 2.7,
+       "req_s": 78.72584134833913,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 9233,
+      "p50_ms": 1.0,
+      "p95_ms": 3.0,
+      "req_s": 156.35185664759385,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 8786,
+      "p50_ms": 1.4,
+      "p95_ms": 2.6,
+      "req_s": 159.6844841060686,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 2667,
+       "p50_ms": 1.4,
+       "p95_ms": 2.7,
+       "req_s": 48.47945031174449,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 879,
+       "p50_ms": 1.4,
+       "p95_ms": 2.6,
+       "req_s": 15.994031806106483,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 936,
+       "p50_ms": 1.3,
+       "p95_ms": 2.6,
+       "req_s": 17.046075396102715,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 4304,
+       "p50_ms": 1.3,
+       "p95_ms": 2.5,
+       "req_s": 78.24885462875426,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 9178,
+      "p50_ms": 1.0,
+      "p95_ms": 3.0,
+      "req_s": 155.42482259926084,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 8740,
+      "p50_ms": 1.4,
+      "p95_ms": 2.7,
+      "req_s": 158.94376954971995,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 2548,
+       "p50_ms": 1.4,
+       "p95_ms": 2.6,
+       "req_s": 46.45396536007293,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 863,
+       "p50_ms": 1.4,
+       "p95_ms": 2.7,
+       "req_s": 15.719489981785063,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 889,
+       "p50_ms": 1.4,
+       "p95_ms": 2.5,
+       "req_s": 16.18570778334092,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 4440,
+       "p50_ms": 1.4,
+       "p95_ms": 2.7,
+       "req_s": 80.78896611958223,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  },
+  "estresse400": {
+   "usuarios": 400,
+   "rotulo": "estresse 3",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 17991,
+      "p50_ms": 2.0,
+      "p95_ms": 6.0,
+      "req_s": 304.6095336465029,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 16621,
+      "p50_ms": 1.6,
+      "p95_ms": 4.1,
+      "req_s": 319.71454402062056,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 4942,
+       "p50_ms": 1.6,
+       "p95_ms": 4.0,
+       "req_s": 95.10613321016878,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 1701,
+       "p50_ms": 1.6,
+       "p95_ms": 3.9,
+       "req_s": 32.73105120360215,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 1693,
+       "p50_ms": 1.6,
+       "p95_ms": 4.1,
+       "req_s": 32.60660221100882,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 8285,
+       "p50_ms": 1.5,
+       "p95_ms": 4.1,
+       "req_s": 159.40355940355943,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 17932,
+      "p50_ms": 1.0,
+      "p95_ms": 4.0,
+      "req_s": 303.6028536373924,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 16579,
+      "p50_ms": 1.4,
+      "p95_ms": 3.3,
+      "req_s": 318.6430905246973,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 4855,
+       "p50_ms": 1.4,
+       "p95_ms": 3.3,
+       "req_s": 93.31334448096253,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 1672,
+       "p50_ms": 1.4,
+       "p95_ms": 3.4449999999999816,
+       "req_s": 32.15879366056316,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 1707,
+       "p50_ms": 1.4,
+       "p95_ms": 3.3,
+       "req_s": 32.83892191377619,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 8345,
+       "p50_ms": 1.4,
+       "p95_ms": 3.3,
+       "req_s": 160.4159858518675,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 17968,
+      "p50_ms": 1.0,
+      "p95_ms": 5.0,
+      "req_s": 304.21216545362597,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 16624,
+      "p50_ms": 1.5,
+      "p95_ms": 3.6,
+      "req_s": 319.7169013001,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 4918,
+       "p50_ms": 1.5,
+       "p95_ms": 3.5,
+       "req_s": 94.62059412036325,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 1611,
+       "p50_ms": 1.5,
+       "p95_ms": 3.5,
+       "req_s": 31.067998611486097,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 1604,
+       "p50_ms": 1.4,
+       "p95_ms": 3.7,
+       "req_s": 30.849713428472516,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 8491,
+       "p50_ms": 1.4,
+       "p95_ms": 3.6,
+       "req_s": 163.35443159737588,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  },
+  "recuperacao50": {
+   "usuarios": 50,
+   "rotulo": "recuperação",
+   "reps": [
+    {
+     "rep": 1,
+     "agregado": {
+      "requisicoes": 2334,
+      "p50_ms": 2.0,
+      "p95_ms": 3.0,
+      "req_s": 39.523558781178195,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 2229,
+      "p50_ms": 1.7,
+      "p95_ms": 2.4,
+      "req_s": 40.571532580997456,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 627,
+       "p50_ms": 1.7,
+       "p95_ms": 2.4,
+       "req_s": 11.423470038442618,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 240,
+       "p50_ms": 1.7,
+       "p95_ms": 2.5,
+       "req_s": 4.379641964269421,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 221,
+       "p50_ms": 1.7,
+       "p95_ms": 2.5,
+       "req_s": 4.077791718946048,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 1141,
+       "p50_ms": 1.7,
+       "p95_ms": 2.4,
+       "req_s": 20.9227271060256,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 2,
+     "agregado": {
+      "requisicoes": 2294,
+      "p50_ms": 2.0,
+      "p95_ms": 3.0,
+      "req_s": 38.845926894324236,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 2173,
+      "p50_ms": 1.6,
+      "p95_ms": 2.3,
+      "req_s": 39.59187391819258,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 690,
+       "p50_ms": 1.6,
+       "p95_ms": 2.3,
+       "req_s": 12.610340479192939,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 193,
+       "p50_ms": 1.6,
+       "p95_ms": 2.4,
+       "req_s": 3.545187362233652,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 223,
+       "p50_ms": 1.6,
+       "p95_ms": 2.1899999999999977,
+       "req_s": 4.083800314983701,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 1067,
+       "p50_ms": 1.6,
+       "p95_ms": 2.4,
+       "req_s": 19.440648628951443,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    },
+    {
+     "rep": 3,
+     "agregado": {
+      "requisicoes": 2305,
+      "p50_ms": 2.0,
+      "p95_ms": 3.0,
+      "req_s": 39.030672794365074,
+      "falhas_pct": 0.0
+     },
+     "patamar": {
+      "requisicoes": 2201,
+      "p50_ms": 1.6,
+      "p95_ms": 2.7,
+      "req_s": 40.06115651335068,
+      "falhas_pct": 0.0
+     },
+     "por_endpoint": {
+      "buscar": {
+       "requisicoes": 649,
+       "p50_ms": 1.6,
+       "p95_ms": 2.7,
+       "req_s": 11.822139643332058,
+       "falhas_pct": 0.0
+      },
+      "buscar_estoque": {
+       "requisicoes": 212,
+       "p50_ms": 1.7,
+       "p95_ms": 2.8,
+       "req_s": 3.8829972342802717,
+       "falhas_pct": 0.0
+      },
+      "categorias": {
+       "requisicoes": 236,
+       "p50_ms": 1.6,
+       "p95_ms": 2.5,
+       "req_s": 4.360599397646015,
+       "falhas_pct": 0.0
+      },
+      "listar": {
+       "requisicoes": 1104,
+       "p50_ms": 1.6,
+       "p95_ms": 2.6,
+       "req_s": 20.122117925817918,
+       "falhas_pct": 0.0
+      }
+     },
+     "atende": true,
+     "parada": ""
+    }
+   ]
+  }
+ },
+ "projeto_rec": {
+  "recuperacao": {
+   "r1": {
+    "primeira_janela_dentro_da_meta_s": 2.5,
+    "janelas_fora_da_meta": 0,
+    "janelas": 12
+   },
+   "r2": {
+    "primeira_janela_dentro_da_meta_s": 2.5,
+    "janelas_fora_da_meta": 0,
+    "janelas": 12
+   },
+   "r3": {
+    "primeira_janela_dentro_da_meta_s": 2.5,
+    "janelas_fora_da_meta": 0,
+    "janelas": 12
+   }
+  }
+ },
+ "projeto_exploratorio_1000": {
+  "requisicoes": 39852,
+  "p50_ms": 2.1,
+  "p95_ms": 8.0,
+  "req_s": 795.8303378864126,
+  "falhas_pct": 0.0
+ }
+}

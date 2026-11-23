@@ -1,0 +1,100 @@
+{
+  "tipo": "carga",
+  "requisicoes": 4327,
+  "falhas_tecnicas": 0,
+  "erro_tecnico_pct": 0.0,
+  "p50_ms": 23,
+  "p95_ms": 1600,
+  "p95_comprovante_ms": 6700,
+  "rps_medio": 36.01,
+  "respostas_negocio": {
+    "201 Matrícula realizada": 94,
+    "409 Vagas esgotadas": 30,
+    "alunos que desistiram (sem vagas)": 6
+  },
+  "por_endpoint": {
+    "GET /api/disciplinas": {
+      "req": 3747,
+      "falhas": 0,
+      "p50_ms": 23,
+      "p95_ms": 25,
+      "max_ms": 48.20365699998774,
+      "rps": 31.17912599934231
+    },
+    "POST /api/matriculas": {
+      "req": 124,
+      "falhas": 0,
+      "p50_ms": 54,
+      "p95_ms": 64,
+      "max_ms": 72.33345500003452,
+      "rps": 1.0318152185530949
+    },
+    "GET /api/matriculas/[id]/comprovante": {
+      "req": 456,
+      "falhas": 0,
+      "p50_ms": 1500,
+      "p95_ms": 6700,
+      "max_ms": 7890.119581000022,
+      "rps": 3.7944172553242845
+    }
+  },
+  "integridade": {
+    "ES3": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+    },
+    "BD2": {
+      "iniciais": 40,
+      "finais": 0,
+      "consumidas": 40,
+      "matriculas_201": 40,
+      "ok": true
+    },
+    "PW2": {
+      "iniciais": 35,
+      "finais": 0,
+      "consumidas": 35,
+      "matriculas_201": 35,
+      "ok": true
+    },
+    "RED": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+    },
+    "IHC": {
+      "iniciais": 30,
+      "finais": 0,
+      "consumidas": 30,
+      "matriculas_201": 30,
+      "ok": true
+    },
+    "EMP": {
+      "iniciais": 50,
+      "finais": 0,
+      "consumidas": 50,
+      "matriculas_201": 50,
+      "ok": true
+    },
+    "MOB": {
+      "iniciais": 5,
+      "finais": 0,
+      "consumidas": 5,
+      "matriculas_201": 5,
+      "ok": true
+    }
+  },
+  "sla": {
+    "p95_geral_ok": false,
+    "p95_comprovante_ok": false,
+    "erro_tecnico_ok": true,
+    "integridade_vagas_ok": true
+  },
+  "aprovado": false,
+  "parada": null
+}
