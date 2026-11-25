@@ -9,6 +9,7 @@ Equipe: Luiz Felipe de Lima Silva Tavares da Costa e Samuel Alves de Sousa · Li
 | Exemplo B – Catálogo | Biblioteca (`127.0.0.1:8000`) | `pacote-B/exemplo/` (script do professor, sem alterações) |
 | **Desafio B – Consulta de minicursos** | Minicursos (`127.0.0.1:8000`) | `pacote-B/desafio/desafio_locust.py` + `plano_desafio_B.md` |
 | **Projeto anterior** | API do *produtos-web* (Prog. para Internet II) em `localhost:3000` | `projeto-anterior/` |
+| Sistemas testados (cópia do kit do professor, sem alterações) | Pacote A (Flask) e Pacote B | `sistemas/` |
 | Resultados brutos | CSV, HTML, logs, JSON de cada execução | `resultados/` |
 | Tabela-resumo e gráficos | gerados por `ferramentas/analisar.py` | `resultados/registro_resultados.csv`, `resultados/graficos/` |
 | Relatório | | `relatorio.md` / `relatorio.pdf` |
@@ -21,15 +22,24 @@ python -m venv .venv
 source .venv/bin/activate            # Windows: .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 ```
+Ativação no Windows: Git CMD/CMD `.venv\Scripts\activate.bat` · PowerShell `.venv\Scripts\Activate.ps1` · Git Bash `source .venv/Scripts/activate`.
+
+O sistema do Pacote A (`python app.py`) precisa do Flask, que não está no `requirements.txt` acima.
+Com o ambiente ativado, instale também:
+
+```bash
+python -m pip install -r sistemas/pacote-A/requirements.txt
+```
+O sistema do Pacote B usa só a biblioteca padrão do Python e não precisa de nada extra.
 
 Versões usadas nas execuções registradas: ver `versoes_utilizadas.txt`.
 
 ## 2. Subir os sistemas (um terminal para cada)
 
 ```bash
-# kit do professor (ESIII_Testes_Funcionais.zip)
-cd ESIII_Testes_Funcionais/02_Pacote_A_SaborExpress_Matricula/app && python app.py   # http://localhost:5000
-cd ESIII_Testes_Funcionais/03_Pacote_B_Biblioteca_Minicursos && python app.py        # http://127.0.0.1:8000
+# sistemas testados (cópia do kit do professor, em sistemas/ – ver sistemas/LEIA.md)
+cd sistemas/pacote-A && python app.py   # http://localhost:5000
+cd sistemas/pacote-B && python app.py        # http://127.0.0.1:8000
 
 # projeto anterior (Node 20+): https://github.com/luizfelipettavares/produtos-web
 cd produtos-web/api && npm install && npm run build && PORT=3000 node dist/server.js # http://localhost:3000
