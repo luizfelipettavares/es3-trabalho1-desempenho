@@ -15,6 +15,88 @@ Equipe: Luiz Felipe de Lima Silva Tavares da Costa e Samuel Alves de Sousa · Li
 | Relatório | | `relatorio.md` / `relatorio.pdf` |
 | Slides da apresentação (Pacote A, com apêndices do B e do projeto) | | `slides.pdf` |
 
+## Passo a passo no Windows (Git CMD)
+
+**Pré-requisitos**
+- Python 3 (testado com 3.13 e 3.15). No instalador, marque *Add python.exe to PATH*.
+- Git for Windows (instala o terminal **Git CMD**, usado em todos os passos).
+
+Use sempre `127.0.0.1` nos endereços, não `localhost`: no Windows, `localhost` deixou cada requisição cerca de 2 s mais lenta.
+
+**1. Baixar o trabalho** (uma vez)
+```bat
+cd C:\
+mkdir Projetos
+cd Projetos
+git clone https://github.com/luizfelipettavares/es3-trabalho1-desempenho
+```
+
+**2. Criar o ambiente e instalar as dependências** (uma vez)
+```bat
+cd C:\Projetos\es3-trabalho1-desempenho
+python -m venv .venv
+.venv\Scripts\activate.bat
+python -m pip install -r requirements.txt
+python -m pip install -r sistemas\pacote-A\requirements.txt
+```
+Certo quando a linha começa com `(.venv)` e o `pip` termina sem erro.
+Em toda janela nova, entre na pasta e rode `.venv\Scripts\activate.bat` de novo.
+
+**3. Subir os sistemas** (uma janela do Git CMD para cada; não feche)
+
+Janela 1 – Pacote A (porta 5000):
+```bat
+cd C:\Projetos\es3-trabalho1-desempenho
+.venv\Scripts\activate.bat
+cd sistemas\pacote-A
+python app.py
+```
+Certo quando aparece `Running on http://127.0.0.1:5000`.
+
+Janela 2 – Pacote B (porta 8000):
+```bat
+cd C:\Projetos\es3-trabalho1-desempenho
+.venv\Scripts\activate.bat
+cd sistemas\pacote-B
+python app.py
+```
+Certo quando aparece `Aplicação local em http://127.0.0.1:8000`.
+
+**4. Rodar o teste** (janela 3)
+```bat
+cd C:\Projetos\es3-trabalho1-desempenho
+.venv\Scripts\activate.bat
+cd pacote-A\desafio
+set TIPO_TESTE=carga
+set DURACAO_S=30
+locust -f locustfile_matricula.py --host http://127.0.0.1:5000 --headless --csv demo
+```
+- `TIPO_TESTE`: `carga`, `pico` ou `estresse`. `DURACAO_S=30` encurta a carga para 30 s (sem ele: 120 s, como no relatório).
+- O teste zera o sistema sozinho antes de começar.
+
+Resultado esperado: consulta e matrícula em dezenas de ms; comprovante em segundos;
+`erros técnicos = 0.00%`, `[INTEGRIDADE] vagas OK` e `[SLA] REPROVADO` (exit code 1).
+O SLA falha por causa do comprovante, como no relatório; não é erro do teste.
+
+Para repetir todas as execuções do relatório, ver a seção 3 abaixo.
+
+**5. Encerrar**: `Ctrl+C` nas janelas 1 e 2. Os arquivos `demo*` criados em `pacote-A\desafio` podem ser apagados.
+
+**Se algo der errado**
+
+| Aparece | Fazer |
+|---|---|
+| `'python' não é reconhecido` | Reinstale o Python marcando *Add python.exe to PATH* e abra um Git CMD novo. |
+| `'locust' não é reconhecido` | Ambiente não ativado: `.venv\Scripts\activate.bat` na pasta do trabalho. |
+| `ModuleNotFoundError: No module named 'flask'` | Faltou o passo 2: `python -m pip install -r sistemas\pacote-A\requirements.txt`. |
+| `Address already in use` / porta ocupada | O sistema já está rodando em outra janela: use essa ou feche-a com `Ctrl+C`. |
+| Conexão recusada | A janela 1 parou: rode `python app.py` de novo. |
+| Tudo em ~2.000 ms | Ficou `localhost` no comando: troque por `127.0.0.1`. |
+
+## Passo a passo completo (Linux/macOS e todas as execuções)
+
+As seções abaixo trazem todos os comandos usados para gerar os resultados registrados.
+
 ## 1. Preparar o ambiente (uma vez)
 
 ```bash
