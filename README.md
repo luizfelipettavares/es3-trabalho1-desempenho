@@ -45,6 +45,18 @@ cd sistemas/pacote-B && python app.py        # http://127.0.0.1:8000
 cd produtos-web/api && npm install && npm run build && PORT=3000 node dist/server.js # http://localhost:3000
 ```
 
+> **Windows: use `127.0.0.1`, não `localhost`.** Num teste em Windows 11, com `--host http://localhost:5000`
+> toda requisição levou cerca de 2 s a mais (inclusive a consulta, que é de dezenas de ms). Com
+> `--host http://127.0.0.1:5000` os tempos ficaram normais. Exemplo no Git CMD/CMD:
+>
+> ```bat
+> cd pacote-A\desafio
+> set TIPO_TESTE=carga
+> set DURACAO_S=30
+> locust -f locustfile_matricula.py --host http://127.0.0.1:5000 --headless --csv demo
+> ```
+> (`DURACAO_S=30` encurta a carga para 30 s; sem ele são 120 s, como no relatório.)
+
 Para o desempenho do projeto usamos a API compilada (`npm run build` + `node dist/server.js`), não o
 `tsx watch` de desenvolvimento, para não medir o recompilador.
 
